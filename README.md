@@ -19,7 +19,7 @@ What's new?
 0.6 Standard      2014年6月14日
 1.Change index HTML4.01 to HTML5
 2.Support multiple upload
---------
+
 0.5 beta          2013年8月24日
 1.使CSS适应多浏览器
 
