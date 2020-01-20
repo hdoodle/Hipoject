@@ -3,33 +3,33 @@
 <?php
 include 'config.php';
 ?>
-<title><?php echo "".$websitename.""?>&nbsp;-Powered By hehaoyuan1997</title>
+<title><?php echo "".$websitename.""?></title>
 <meta name="keywords" content="Hipoject,hehaoyuan1997">
-<meta name="descrption" content="Hipoject是一个图床，由hehaoyuan1997编写">
+<meta name="descrption" content="Hipoject脢脟脪禄赂枚脥录麓虏拢卢脫脡hehaoyuan1997卤脿脨麓">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <meta name="author"
 content="hehaoyuan1997">
 <!---copyright (c) 2013-2013 hehaoyuan1997 All Rights Reserved--->
 <!---Powered By hehaoyuan1997--->
 <!---author website:http://www.ddpool.com/--->
-<!---hehaoyuan1997开始于2013年8月18日23:19:57编写--->
+<!---hehaoyuan1997驴陋脢录脫脷2013脛锚8脭脗18脠脮23:19:57卤脿脨麓--->
 <style type="text/css">  
 .align-center{  
-    margin:0 auto;      /* 居中 这个是必须的，，其它的属性非必须 */  
-    width:1024;        /* 给个宽度 顶到浏览器的两边就看不出居中效果了 */  
-    text-align:left;  /* 文字等内容居中 */  
+    margin:0 auto;      /* 戮脫脰脨 脮芒赂枚脢脟卤脴脨毛碌脛拢卢拢卢脝盲脣眉碌脛脢么脨脭路脟卤脴脨毛 */  
+    width:1024;        /* 赂酶赂枚驴铆露脠 露楼碌陆盲炉脌脌脝梅碌脛脕陆卤脽戮脥驴麓虏禄鲁枚戮脫脰脨脨搂鹿没脕脣 */  
+    text-align:left;  /* 脦脛脳脰碌脠脛脷脠脻戮脫脰脨 */  
 }  
 body {
-text-align: center;  /* 页面元素居中 */
+text-align: center;  /* 脪鲁脙忙脭陋脣脴戮脫脰脨 */
 } 
 .txtcss1 {
-text-align: center;  /* 用于文字右对齐 */
+text-align: center;  /* 脫脙脫脷脦脛脳脰脫脪露脭脝毛 */
 }  
 .txtcss2 {
-text-align:right;  /* 用于文字右对齐 */
+text-align:right;  /* 脫脙脫脷脦脛脳脰脫脪露脭脝毛 */
 }  
 .txtcss3 {
-text-align:left;  /* 用于文字右对齐 */
+text-align:left;  /* 脫脙脫脷脦脛脳脰脫脪露脭脝毛 */
 }  
 .form0{
 background-color:rgb(210,210,210);
@@ -42,31 +42,25 @@ wrap {text-align:left;}
 <body bgcolor=#E2E2E2><div class="align-center">
   <h1><?php echo "".$websitename."&nbsp".$version."" ?></h1>
      </br>
-     <div class="txtcss1"><a href="<?php echo "$websiteurl" ?>">首页</a>
-     <a href="<?php echo "".$websiteurl."about.php" ?>">关于</a>
-     <a href="<?php echo "".$websiteurl."help.php" ?>">帮助</a>
-     </br></br></div>
-
-
 
 <?php   
  /*****************************************   
-   Title :文件上传详解   
-   Author:leehui1983(辉老大)   
+   Title :脦脛录镁脡脧麓芦脧锚陆芒   
+   Author:leehui1983(禄脭脌脧麓贸)   
    Finish Date  :2006-12-28   
    Edit Date  :2014-06-24
    Edit By  :hehaoyuan1997
   *****************************************/   
-   $uploaddir = "./".$imagefile."";//设置文件保存目录 注意包含/       
-   $type=array("jpg","gif","bmp","jpeg","png");//设置允许上传文件的类型    
-   $patch="".$websiteurl."";//程序所在路径   
+   $uploaddir = "./".$imagefile."";//脡猫脰脙脦脛录镁卤拢麓忙脛驴脗录 脳垄脪芒掳眉潞卢/       
+   $type=array("jpg","gif","bmp","jpeg","png");//脡猫脰脙脭脢脨铆脡脧麓芦脦脛录镁碌脛脌脿脨脥    
+   $patch="".$websiteurl."";//鲁脤脨貌脣霉脭脷脗路戮露   
 
-   //获取文件后缀名函数   
+   //禄帽脠隆脦脛录镁潞贸脳潞脙没潞炉脢媒   
       function fileext($filename)   
     {   
         return substr(strrchr($filename, '.'), 1);   
     }   
-   //生成随机文件名函数       
+   //脡煤鲁脡脣忙禄煤脦脛录镁脙没潞炉脢媒       
     function random($length)   
     {   
         $hash = 'CR-';   
@@ -79,26 +73,26 @@ wrap {text-align:left;}
             }   
         return $hash;   
     }   
-   //多维数组上传图片循环部分开始
-    $counts=count(@$_FILES['file']['name']);        //统计上传文件个数
-	$num=0;                                        //计数归零
+   //露脿脦卢脢媒脳茅脡脧麓芦脥录脝卢脩颅禄路虏驴路脰驴陋脢录
+    $counts=count(@$_FILES['file']['name']);        //脥鲁录脝脡脧麓芦脦脛录镁赂枚脢媒
+	$num=0;                                        //录脝脢媒鹿茅脕茫
     while ($num < $counts) {
 	  
 
    
      $a=strtolower(fileext($_FILES['file']['name'][$num]));   
-     //判断文件类型   
+     //脜脨露脧脦脛录镁脌脿脨脥   
      if(!in_array(strtolower(fileext($_FILES['file']['name'][$num])),$type))   
        {   
           $text=implode(",",$type);   
-          echo "您只能上传以下类型文件: ",$text,"<br>";   
+          echo "脛煤脰禄脛脺脡脧麓芦脪脭脧脗脌脿脨脥脦脛录镁: ",$text,"<br>";   
        }   
-     //生成目标文件的文件名       
+     //脡煤鲁脡脛驴卤锚脦脛录镁碌脛脦脛录镁脙没       
      else{   
       $filename=explode(".",$_FILES['file']['name'][$num]);   
           do   
           {   
-              $filename[0]=random(10); //设置随机数长度   
+              $filename[0]=random(10); //脡猫脰脙脣忙禄煤脢媒鲁陇露脠   
               $name=implode(".",$filename);   
               //$name1=$name.".Mcncc";   
               $uploadfile=$uploaddir.$name;   
@@ -107,37 +101,37 @@ wrap {text-align:left;}
           if (move_uploaded_file($_FILES['file']['tmp_name'][$num],$uploadfile)){   
 
               if(is_uploaded_file($_FILES['file']['tmp_name'][$num])){   
-                  //输出图片预览   
-                  echo "<center>您的文件已经上传完毕 上传图片预览: </center><br><center><img src='$uploadfile'></center>";   
-                  echo"<br><center><a href='javascript:history.go(-1)'>继续上传</a></center>";   
+                  //脢盲鲁枚脥录脝卢脭陇脌脌   
+                  echo "<center>脛煤碌脛脦脛录镁脪脩戮颅脡脧麓芦脥锚卤脧 脡脧麓芦脥录脝卢脭陇脌脌: </center><br><center><img src='$uploadfile'></center>";   
+                  echo"<br><center><a href='javascript:history.go(-1)'>录脤脨酶脡脧麓芦</a></center>";   
 				  echo "       <table border=\"0\" align=\"center\">";
 				  echo "        <form name=\"form1\" action=\"".$websiteurl."login.php\" method=\"post\">";
-				  echo "           <caption>图片链接</caption>";
-				  echo "           <tr><th>论坛代码(BBCode)：</th>";
+				  echo "           <caption>脥录脝卢脕麓陆脫</caption>";
+				  echo "           <tr><th>BBCode</th>";
 				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"[IMG]".$websiteurl."".$imagefile."".$name."[/IMG]\"></br></td>";
 				  echo "           </tr>";
-				  echo "           <tr><th>HTML代码：</th>";
-				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;此图片使用的图床为".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;\"></br></td>";
+				  echo "           <tr><th>HTML</th>";
+				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;麓脣脥录脝卢脢鹿脫脙碌脛脥录麓虏脦陋".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;\"></br></td>";
 				  echo "           </tr>";
-				  echo "           <tr><th>原图链接：</th>";
+				  echo "           <tr><th>Direct</th>";
 				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"".$websiteurl."".$imagefile."".$name."\"></br></td>";
 				  echo "           </tr>";
 				  echo "        </table>";
                 }   
                 else{   
-                  //输出图片预览   
-                  echo "<center>您的文件已经上传完毕 上传图片预览: </center><br><center><img src='$uploadfile'></center>";   
-                  echo"<br><center><a href='javascript:history.go(-1)'>继续上传</a></center>";   
+                  //脢盲鲁枚脥录脝卢脭陇脌脌   
+                  echo "<br><center><img src='$uploadfile'></center>";   
+                  echo"<br><center></center>";   
 				  echo "       <table border=\"0\" align=\"center\">";
 				  echo "        <form name=\"form1\" action=\"".$websiteurl."login.php\" method=\"post\">";
-				  echo "           <caption>图片链接</caption>";
-				  echo "           <tr><th>论坛代码(BBCode)：</th>";
+				 
+				  echo "           <tr><th>BBCode</th>";
 				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"[IMG]".$websiteurl."".$imagefile."".$name."[/IMG]\"></br></td>";
 				  echo "           </tr>";
-				  echo "           <tr><th>HTML代码：</th>";
-				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;此图片使用的图床为".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;\"></br></td>";
+				  echo "           <tr><th>HTML</th>";
+				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;\"></br></td>";
 				  echo "           </tr>";
-				  echo "           <tr><th>原图链接：</th>";
+				  echo "           <tr><th>Direct</th>";
 				  echo "           <td><input type=\"text\" name=\"username\" readonly size=\"100\"value=\"".$websiteurl."".$imagefile."".$name."\"></br></td>";
 				  echo "           </tr>";
 				  echo "        </table>";
@@ -150,18 +144,18 @@ wrap {text-align:left;}
 
 
 
-<!---代码生成部分--->
+<!---麓煤脗毛脡煤鲁脡虏驴路脰--->
 <!---old version 0.5
        <table border="0" align="center">
         <form name="form1" action="<?php //echo "".$websiteurl."login.php" ?>" method="post">
-           <caption>图片链接</caption>
-           <tr><th>论坛代码(BBCode)：</th>
+           <caption>脥录脝卢脕麓陆脫</caption>
+           <tr><th>脗脹脤鲁麓煤脗毛(BBCode)拢潞</th>
            <td><input type="text" name="username" readonly size="100"value="<?php //echo "[IMG]".$websiteurl."".$imagefile."".$name."[/IMG]" ?>"></br></td>
            </tr>
-           <tr><th>HTML代码：</th>
-           <td><input type="text" name="username" readonly size="100"value="<?php //echo "&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;此图片使用的图床为".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;" ?>"></br></td>
+           <tr><th>HTML麓煤脗毛拢潞</th>
+           <td><input type="text" name="username" readonly size="100"value="<?php //echo "&lt;a href=&quot;".$websiteurl."&quot;&gt;&lt;img src=&quot;".$websiteurl."".$imagefile."".$name."&quot;&nbsp;title=&quot;麓脣脥录脝卢脢鹿脫脙碌脛脥录麓虏脦陋".$websitename."&quot;&nbsp;/&gt;&lt;/a&gt;" ?>"></br></td>
            </tr>
-           <tr><th>原图链接：</th>
+           <tr><th>脭颅脥录脕麓陆脫拢潞</th>
            <td><input type="text" name="username" readonly size="100"value="<?php //echo "".$websiteurl."".$imagefile."".$name."" ?>"></br></td>
            </tr>
         </table>
@@ -173,12 +167,9 @@ wrap {text-align:left;}
 
 
 
-  <!---时间显示部分--->
+  <!---脢卤录盲脧脭脢戮虏驴路脰--->
   </br></br></br></br>
-  <?php
-    echo date("现在是Y年m月d日H时i分s秒(此时间时区为eP)");
-    echo "</br>";
-  ?>
-  <span style="float:left">Powered By <a href="http://www.ddpool.com" >hehaoyuan1997</a></span>
-  <span style="float:right"><?php echo "$copyright" ?></span></div>
+
+  
+  </div>
 </body>
