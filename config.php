@@ -1,15 +1,26 @@
 <!---copyright (c) 2013-2013 hehaoyuan1997 All Rights Reserved--->
 <!---Powered By hehaoyuan1997--->
 <!---author website:http://www.ddpool.com/--->
-<!---hehaoyuan1997¿ªÊ¼ÓÚ2013Äê8ÔÂ18ÈÕ23:19:57±àÐ´--->
+<!---hehaoyuan1997å¼€å§‹äºŽ2013å¹´8æœˆ18æ—¥23:19:57ç¼–å†™--->
 
-<!---È«¾ÖÅäÖÃÎÄ¼þ--->
+<!---å…¨å±€é…ç½®æ–‡ä»¶--->
 <?php
-$websitename="Hipoject";                   //ÍøÕ¾Ãû³Æ
-$websiteurl="http://127.0.0.1/";   //ÍøÕ¾Á´½Ó£¬×¢Òâ£ºÄ©Î²Ò»¶¨ÒªÓÐ"/"
+$websitename="Hipoject";                   //ç½‘ç«™åç§°
+$websiteurl="http://127.0.0.1/";   //ç½‘ç«™é“¾æŽ¥ï¼Œæ³¨æ„ï¼šæœ«å°¾ä¸€å®šè¦æœ‰"/"
 $version="0.6";                    
-$build="2014061400102";
-$date="2014Äê6ÔÂ14ÈÕ";
+$build="200120469";
+$date="1579392000";
 $copyright="copyright (c) 2013-2014 hehaoyuan1997 All Rights Reserved";
-$imagefile="files/"                        //½¨Òé²»Òª¸ü¸Ä´ËÏî
+$imagefile="files/"                        //å»ºè®®ä¸è¦æ›´æ”¹æ­¤é¡¹
+?>
+
+
+<?php
+$websitename="Hipoject";            //Websitename      
+$websiteurl="http://127.0.0.1/";  //Website Url, note: at the end must have a "/"
+$version="1.0";                    
+$build="2014061400102";
+$date="1579392000";
+
+$imagefile="files/"            //It is not recommended to change this item            
 ?>
