@@ -6,14 +6,14 @@ include 'config.php';
 ?>
 <title><?php echo "".$websitename.""?>&nbsp;-Powered By hehaoyuan1997</title>
 <meta name="keywords" content="Hipoject,hehaoyuan1997">
-<meta name="descrption" content="Hipoject是一个图床，由hehaoyuan1997编写">
+<meta name="descrption" content="Hipoject脢脟脪禄赂枚脥录麓虏拢卢脫脡hehaoyuan1997卤脿脨麓">
 <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
 <meta name="author"
 content="hehaoyuan1997">
 <!---copyright (c) 2013-2013 hehaoyuan1997 All Rights Reserved--->
 <!---Powered By hehaoyuan1997--->
 <!---author website:http://www.ddpool.com/--->
-<!---hehaoyuan1997开始于2013年8月18日23:19:57编写--->
+<!---hehaoyuan1997驴陋脢录脫脷2013脛锚8脭脗18脠脮23:19:57卤脿脨麓--->
 <style type="text/css">
 div#container
 {
@@ -196,42 +196,28 @@ a:hover
 <body>
 <div id="container">
 <div id="Layer1" style="position:absolute;text-align:left;left:0px;top:0px;width:960px;height:40px;z-index:5;" title="">
-<h1><div id="h1" style="position:absolute;left:10px;top:4px;width:316px;height:29px;z-index:0;text-align:left;font-weight：normal;"><span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><?php echo "".$websitename."&nbsp".$version."" ?></span></div></h1>
+<h1><div id="h1" style="position:absolute;left:10px;top:4px;width:316px;height:29px;z-index:0;text-align:left;font-weight拢潞normal;"><span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><?php echo "".$websitename."&nbsp".$version."" ?></span></div></h1>
 </div>
-<div id="Layer3" style="position:absolute;text-align:left;left:0px;top:400px;width:960px;height:100px;z-index:6;" title="">
-<div id="wb_Text4" style="position:absolute;left:10px;top:50px;width:960px;height:20px;z-index:4;text-align:left;">
-<span style="color:#FFFFFF;font-family:宋体;font-size:16px;"><!---时间显示部分---><?php
-    echo date("现在是Y年m月d日H时i分s秒(此时间时区为eP)");
-    echo "&nbsp;本站推荐使用1024*768及以上分辨率，推荐使用webkit核心的浏览器";
-    echo "</br>";
-  ?><!---时间显示部分结束---></span></div>
+
+<span style="color:#FFFFFF;font-family:脣脦脤氓;font-size:16px;"><!---脢卤录盲脧脭脢戮虏驴路脰---><?php
+   
+  ?><!---脢卤录盲脧脭脢戮虏驴路脰陆谩脢酶---></span></div>
 <div id="wb_Text3" style="position:absolute;left:10px;top:72px;width:263px;height:20px;z-index:5;text-align:left;">
-<span style="color:#FFFFFF;font-family:宋体;font-size:16px;">Powered By <a href="http://www.ddpool.com">hehaoyuan1997</a></span></div>
+
 <div id="wb_Text6" style="position:absolute;left:517px;top:70px;width:426px;height:18px;z-index:6;text-align:left;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><!---copyright部分---><?php echo "$copyright" ?><!---copyright部分结束---></span></div>
 <div id="wb_Text1000" style="position:absolute;left:10px;top:3px;width:70px;height:17px;z-index:7;text-align:left;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
+     
     </a>
 </p></span></div>
 </div>
 
 <div id="Layer2" style="position:absolute;text-align:left;left:200px;top:70px;width:600px;height:282px;z-index:8;" title="">
 <div id="wb_Text5" style="position:absolute;left:100px;top:20px;width:423px;height:152px;z-index:4;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>请问此图床是免费的么？&nbsp; </strong><br><br>答：此图床完全免费。<br><br><strong>请问我可以去哪里获得此图床代码？<br><br>答：可以访问https://sourceforge.net/projects/hipoject/获得源代码。</strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Is this image host free&nbsp; </strong><br><br>A: This image host is completely free of charge.<br><br><strong>Where can I get this softwares code?<br><br>A: You can visit https://github.com/hdoodle/Hipoject to get the source code.</strong></span></div>
 </div>
 <div id="wb_CssMenu1" style="position:absolute;left:660px;top:0px;width:300px;height:40px;z-index:9;">
-<ul>
-<li class="firstmain"><a href="<?php echo "$websiteurl" ?>" target="_self">首页</a>
-</li>
-<li><a href="<?php echo "".$websiteurl."about.php" ?>" target="_self">帮助</a>
-</li>
-<li><a href="<?php echo "".$websiteurl."help.php" ?>" target="_self">关于</a>
-</li>
-</ul>
+
 <br>
 </div>
 </div>
