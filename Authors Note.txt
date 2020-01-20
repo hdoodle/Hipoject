@@ -1,0 +1,16 @@
+About Hipoject
+The Hipoject program is open source code for lightweight image hosting services, and there is currently no charge for commercializing the code.
+Name Hipoject
+Version number 1.0
+build 2013082405012
+This version was originally written on January 20, 2020
+Author: Hehaoyuan1997
+Contact author: hehaoyuan1997@yeah.net
+Forked by: GunmetalOrb73
+
+Copyright information
+
+This program section uses the author leehui 1983 code, which is expressed here, such as Leehui 1983 does not agree to use this code please contact the author.
+
+Instructions for use
+Please change the settings in config.php to enable the code, this PHP program does not require SQL, details access SF wiki.
