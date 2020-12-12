@@ -1,0 +1,33 @@
+===============
+0.6 standard 14 June 2014
+1. Make CSS adapt to multi-browser
+===============
+0.4 beta August 24, 2013
+1. Rewrite the interface
+2. Port the core PHP code suitable for the new version of the interface
+===============
+0.3 beta1
+1.Update css
+===============
+0.2 beta1
+1. Fix some BUGS
+===============
+0.1 Beta1 August 19, 2013
+1. First version
+===============
+0.5 beta August 24, 2013
+1. Make CSS adapt to multi-browser
+===============
+0.4 beta August 24, 2013
+1. Rewrite the interface
+2. Port the core PHP code suitable for the new version of the interface
+===============
+0.3 beta1
+1.Update css
+===============
+0.2 beta1
+1. Fix some BUGS
+===============
+0.1 Beta1 August 19, 2013
+1. First version
+

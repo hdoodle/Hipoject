@@ -1,0 +1,1 @@
+After unzipping all files, remove config.php and overwrite all other files.
